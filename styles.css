@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 400;
+}
+
+span {
+    font-weight: 300;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title {
+    margin-bottom: 1rem;
+}
+.description {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.input-fields {
+    
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+input {
+    padding: .5rem;
+    max-width: 45%;
+}
+.team-container {
+    background-color: #eea47f;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+.team {
+    background-color: #00a4cc;
+    color: white;
+    margin: .5rem 0;
+    padding:  .5rem;
+    width: 100%;
+}
+
+@media(min-width:700px) {
+    .title {
+        font-size: 3rem;
+    }
+    .description {
+        font-size: 2rem;
+    }
+    .team {
+        width: 45%;
+    }
+}
+@media(min-width:1000px) {
+    .team {
+        width: 30%;
+    }
+}
